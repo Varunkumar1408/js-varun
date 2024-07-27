@@ -43,7 +43,17 @@
 // "" => false, 
 // "hitesh" => true
 
-let someNumber = 33
-let someString = String(someNumber)
-console.log(someString); //33
-console.log(typeof someString); //string
+// let someNumber = 33
+// let someString = String(someNumber)
+// console.log(someString); //33
+// console.log(typeof someString); //string
+
+let value = 3
+let negvalue = -value
+console.log(negvalue); //-3
+console.log(2**3);
+
+let str1 = "varun"
+let str2 = "kumar"
+let str3 = str1-str2
+console.log(str3);
