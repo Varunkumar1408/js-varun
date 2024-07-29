@@ -44,3 +44,28 @@ console.log(typeof heros);
 //       Function  =>  function
 //       Object  =>  object
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// There are two types of memory allocations in javascript !!!
+// 1) Stack memory (primitive datatype)
+// 2) Heap memory  (non-primitive datatype)
+
+let myYoutube = "varkumdotcom"
+let anothername = myYoutube
+anothername = "chaiaursutta"
+console.log(myYoutube);
+console.log(anothername);
+
+let userone = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+let usertwo = userone
+
+usertwo.email = "varumkumar@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
