@@ -123,14 +123,14 @@
 // let b = 2**2;
 // console.log(a*b);//100
 
-var string1 = [1,2,3]
-var string2 = [4,5,6,7,8,9,10];
-var result = string1.concat(string2)
-console.log(result);/*[
+// 
+/*[
     1, 2, 3, 4,  5,
     6, 7, 8, 9, 10
   ] */
 
+//console.log(!!"hello"); // true 
+    
 
 
 
